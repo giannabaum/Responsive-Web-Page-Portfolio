@@ -1,0 +1,15 @@
+.group {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  width: 200px; 
+}
+@media all and (min-width :800px) {
+  .group {
+    flex-direction: row;
+  }
+  .item {
+    width: auto;
+  }
+}
